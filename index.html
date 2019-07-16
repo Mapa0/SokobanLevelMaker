@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Criador de Mapas</title>
+	<script src="Mapa.js"></script>
+</head>
+<body>
+	Linhas: <input type ="text" value="8" id ="tbLin"><br>
+	Colunas: <input type = "text" value="8" id = "tbCol"><br>
+	<canvas id ="master"></canvas>
+	<input type="button" onclick="inicializar();" value="Start"/>
+	<input type="button" onclick="selectedPalette = 0;" value="Vazio"/>
+	<input type="button" onclick="selectedPalette = 1;" value="Parede"/>
+	<input type="button" onclick="selectedPalette = 2;" value="Caixa"/>
+	<input type="button" onclick="selectedPalette = 3;" value="Objetivo"/>
+	<input type="button" onclick="selectedPalette = 4;" value="Player"/>
+</body>
+</html>
